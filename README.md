@@ -9,7 +9,9 @@ Location Tracking app builds to relay location of app users to firestore using s
 * firebase: visit for installatio instructions https://invertase.io/oss/react-native-firebase/. Three packages are required-
 * * Firebase app
 * * firestore
-* * messaging
+* * messaging (Optional)
+
+Firebase messaging is only being used for generating FCM token for future use.
 
 This repo only contains required package.json and the code to relay location. More configurations are required for smooth performance. **Not for beginners**
 
